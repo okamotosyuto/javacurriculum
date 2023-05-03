@@ -28,7 +28,7 @@ public class Curriculum_New_1_4 {
 		b = 0;
 		e = 0;
 		f = 0;
-		g = 0; 
+		g = /u0000; 
 		h = null; //文字列は null
 		i = true;
 
