@@ -26,8 +26,8 @@ public class Curriculum_New_1_4 {
 		b = 0;
 		c = 0;
 		b = 0;
-		e = 0;
-		f = 0.0;
+		e = 0f;
+		f = 0.0d;
 		g = '\u0000';                                                               
 		h = null; //文字列は null
 		i = true;
@@ -48,7 +48,7 @@ public class Curriculum_New_1_4 {
 		c = 1000;
 		d = 10000;
 		e = 9.5f;
-		f = 10.5;
+		f = 10.5d;
 		g = 'a';
 		h = "ハロー";
 		i = true;
