@@ -22,6 +22,7 @@ public class Qes1_13 {
 		String h;
 
 		boolean i;
+		System.out.printf("\n");
 /*
  * 
  */
@@ -43,6 +44,7 @@ public class Qes1_13 {
 		h = null;
 
 		i = false;
+		System.out.printf("\n");
 /*
  * 
  */
@@ -90,6 +92,7 @@ public class Qes1_13 {
 
 		int Q6 = a - b;
 		System.out.println(Q6);
+		System.out.printf("\n");
 /*
  * 
  */
@@ -100,6 +103,7 @@ public class Qes1_13 {
 		int num1 = 23;
 
 		System.out.println("ハローJAVA" + (num + num1));
+		System.out.printf("\n");
 /*
  * 
  */
@@ -124,6 +128,7 @@ public class Qes1_13 {
 		double bmi =weight / Math.pow(height / 100, 2);
 		bmi = (double)Math.round(bmi *10)/10;
 		System.out.println("BMIは" + bmi + "です");
+		System.out.printf("\n");
 /*
  * 
  */
@@ -147,6 +152,7 @@ public class Qes1_13 {
 		double bmi2 =weight / Math.pow(height / 100, 2);
 		bmi2 = (double)Math.round(bmi2 *10)/10;
 		System.out.println("BMIは" + bmi2 + "です");
+		System.out.printf("\n");
 /*
  * 
  */
@@ -170,6 +176,7 @@ public class Qes1_13 {
 		double bmi3 =weight / Math.pow(height / 100, 2);
 		bmi3 = (double)Math.round(bmi3 *10)/10;
 		System.out.println("BMIは" + bmi3 + "です");
+		System.out.printf("\n");
 /*
  * 
  */
@@ -182,6 +189,7 @@ public class Qes1_13 {
 		weight = 64.2;
 		boolean flg = age >= 25 ? true : false;
 		System.out.println(flg);
+		System.out.printf("\n");
 /*
  * 
  */
@@ -196,6 +204,7 @@ public class Qes1_13 {
 		String weight2 = String.valueOf(weight);
 //		System.out.println(weight2);
 		System.out.println(age2 + height2 + weight2);
+		System.out.printf("\n");
 /*
  * 
  */
@@ -207,13 +216,14 @@ public class Qes1_13 {
 		// System.out.println(Math.round(height3));
 		int height4 = (int)height3;
 		System.out.println(height4);
+		System.out.printf("\n");
 /*
  * 
  */
 		//Q13
 		boolean flg2 = age3 >= 25 ? true : height4 >= 160 ? true:false;
 		System.out.println(flg2);
-
+		System.out.printf("\n");
 
 	}
 
