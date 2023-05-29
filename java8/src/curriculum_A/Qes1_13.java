@@ -112,10 +112,11 @@ public class Qes1_13 {
 		// Q5
 		// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
 		//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
+		
+		//int型に修正
 		int num = 20;
 
 		int num1 = 23;
-		//int型に修正
 
 		System.out.println("ハローJAVA" + (num + num1) + "\n");
 
@@ -146,19 +147,22 @@ public class Qes1_13 {
  */
 		// Q7
 		// 6で作成した自己紹介に続いてBMIが出力されるようにしてください
-		double bmi =weight / Math.pow(height / 100, 2);
+		
 		// BMI算出
+		double bmi =weight / Math.pow(height / 100, 2);
 		
-		bmi = (double)Math.round(bmi *100)/10;
 		// 四捨五入
+		bmi = (double)Math.round(bmi * 100) / 100;
 		
-		System.out.println("BMIは" + bmi + "です" + "\n");
+		System.out.println("BMIは" + String.format("%.2f",bmi) + "です" + "\n");
 /*
  * 
  */
 
 		// Q8
 		// 6で宣言した変数に再代入し下記の通りコンソールに出力してください
+		
+		// 再代入
 		name = "鈴木一郎";
 		System.out.println("初めまして" + name + "です");
 
@@ -173,13 +177,12 @@ public class Qes1_13 {
 
 		favorite = "オムライス";
 		System.out.println("好きな食べ物は" + favorite + "です");
-		// 再代入
-
-		double bmi2 =weight / Math.pow(height / 100, 2);
-		// BMI算出
 		
-		bmi2 = (double)Math.round(bmi2 *100)/10;
+		// BMI算出
+		double bmi2 =weight / Math.pow(height / 100, 2);
+		
 		// 四捨五入
+		bmi2 = (double)Math.round(bmi2 *100)/100;
 		
 		System.out.println("BMIは" + bmi2 + "です" + "\n");
 
@@ -189,6 +192,8 @@ public class Qes1_13 {
 
 		// Q9
 		// 8で使用した変数【年齢・身長・体重】の数値を和算で自己代入し、下記の通りコンソールに出力してください
+		
+		// 自己代入
 		name = "鈴木一郎";
 		System.out.println("初めまして" + name + "です");
 
@@ -203,13 +208,12 @@ public class Qes1_13 {
 
 		favorite = "オムライス";
 		System.out.println("好きな食べ物は" + favorite + "です");
-		// 自己代入
-
-		double bmi3 =weight / Math.pow(height / 100, 2);
-		// BMI算出
 		
-		bmi3 = (double)Math.round(bmi3 *100)/10;
+		// BMI算出
+		double bmi3 =weight / Math.pow(height / 100, 2);
+		
 		// 四捨五入
+		bmi3 = (double)Math.round(bmi3 * 100 ) / 100;
 		
 		System.out.println("BMIは" + bmi3 + "です" + "\n");
 
@@ -228,19 +232,20 @@ public class Qes1_13 {
 
 		// Q11
 		// 8で使用した【年齢・身長・体重】を文字列型に型変換し繋げて出力してください
+		
+		// 再代入
 		age = 24;
 
 		height = 168.5;
 
 		weight = 64.2;
-		// 再代入
 		
+		// 型変換
 		String strAge = String.valueOf(age);
 
 		String strHeight = String.valueOf(height);
 
 		String strWeight = String.valueOf(weight);
-		// 型変換
 
 		System.out.println(strAge + strHeight + strWeight + "\n");
 /*
@@ -250,10 +255,10 @@ public class Qes1_13 {
 		// 11で変換した【年齢・身長】を整数型に変換して出力してください
 		int intAge = Integer.valueOf(strAge);
 		System.out.println(intAge);
-
+		
+		// 型変換
 		double dblHeight = Double.parseDouble(strHeight);
 		int intHeight = (int)dblHeight;
-		// 型変換
 		
 		System.out.println(intHeight + "\n");
 /*
